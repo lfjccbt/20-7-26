@@ -2283,14 +2283,14 @@ const WEEK_PRESETS = {
 // ALL SUBJECTS (Define once)
 // =============================================
 const ALL_SUBJECTS = {
-    "MATHS_A":   { questions: 80, numerical: 0 },
-    "MATHS_B":   { questions: 80, numerical: 0 },
-    "MATHS":     { questions: 80, numerical: 0 },
-    "PHYSICS":   { questions: 80, numerical: 0 },
-    "CHEMISTRY": { questions: 80, numerical: 0 },
-    "BOTANY":    { questions: 80, numerical: 0 },
-    "ZOOLOGY":   { questions: 80, numerical: 0 },
-    "BZ":        { questions: 80, numerical: 0 },
+    "MATHS_A":   { questions: 40, numerical: 0 },
+    "MATHS_B":   { questions: 40, numerical: 0 },
+    "MATHS":     { questions: 40, numerical: 0 },
+    "PHYSICS":   { questions: 40, numerical: 0 },
+    "CHEMISTRY": { questions: 40, numerical: 0 },
+    "BOTANY":    { questions: 40, numerical: 0 },
+    "ZOOLOGY":   { questions: 40, numerical: 0 },
+    "BZ":        { questions: 40, numerical: 0 },
 };
 
 // =============================================
@@ -2310,7 +2310,7 @@ function buildExamSetup() {
         }
     });
     if (subjects.length === 0) {
-        subjects.push({ name: "MATHS_B", questions: 80, numerical: 0 });
+        subjects.push({ name: "MATHS_B", questions: 40, numerical: 0 });
     }
     return {
         subjects: subjects,
