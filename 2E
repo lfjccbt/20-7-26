@@ -2310,7 +2310,7 @@ function buildExamSetup() {
         }
     });
     if (subjects.length === 0) {
-        subjects.push({ name: "MATHS_B", questions: 25, numerical: 0 });
+        subjects.push({ name: "MATHS_B", questions: 60, numerical: 0 });
     }
     return {
         subjects: subjects,
