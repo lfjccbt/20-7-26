@@ -6255,8 +6255,8 @@ function startTimer() {
         // Update progress with accurate value
         progress.timeLeftSec = Math.floor(timeLeft / 1000);
         
-        // Show submit button at 15 minutes
-        if (timeLeft <= 900000) {
+        // Show submit button at 20 minutes
+        if (timeLeft <= 1200000) {
             document.getElementById('submitBtn').style.display = 'inline-block';
         }
         
